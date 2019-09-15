@@ -10,8 +10,8 @@ window.addEventListener("load", function () {
 });
 
 function createGrid(width, height) {
-  var sizeX = 15;
-  var sizeY = 15;
+  var sizeX = 25;
+  var sizeY = 25;
   var nX = parseInt(width/sizeX);
   var nY = parseInt(height/sizeY);
   // var body = document.getElementById("body");
@@ -31,7 +31,7 @@ function createGrid(width, height) {
 }
 
 function mouse () {
-  this.style.setProperty("background-color", "red");
+  this.style.setProperty("background-color", "rgb(89, 0, 255)");
   this.style.setProperty("filter", "hue-rotate(360deg)");
 }
 
